@@ -32,7 +32,7 @@
                 <nav id="barra" class="col-lg-8">
                     <ul>
                         <li><a href="index.html">Início</a></li>
-                        <li><a href="#">Pré-registro</a></li>
+                        <li><a href="preregistro.html">Pré-registro</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,6 +40,28 @@
     </header>
     <!-- Cabeçalho -->
     <main>
+        <div class="container" id="registro">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8">
+                    <h1>Preencha os detalhes para demonstrar interesse e entrar na lista de espera:</h1>
+                    <form action="sucesso.html" method="get">
+                        <div class="form-group">
+                            <label for="nome">Digite seu nome completo:</label>
+                            <input type="text" class="form-control" name="nome" placeholder="Ex: João Silva" required="true" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Digite seu e-mail:</label>
+                            <input type="email" class="form-control" name="email" placeholder="Ex: joao@gmail.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Observações:</label>
+                            <textarea class="form-control" name="observacoes" rows="4" placeholder="Insira alguma observação sobre o pré-registro..."></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-success" value="Enviar" />
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </main>
 

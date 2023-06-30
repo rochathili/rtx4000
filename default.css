@@ -57,6 +57,23 @@ body{
     padding: 25px;
 }
 
+#principal{
+    display: flex;
+    margin: 20px;
+}
+
+#registro{
+    margin-top: 50px;
+    padding: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    color: white;
+}
+
+#registro h1{
+    color: greenyellow;
+}
 @media (max-width: 768px){
     #barra{
         background-color: white;

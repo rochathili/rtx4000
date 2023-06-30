@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    color: #999999;
+    color: black;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
+    text-decoration: none;
+}
+
+a{
     text-decoration: none;
 }
 
@@ -13,5 +16,32 @@ body{
 }
 
 #header{
+    width: 100%;
+    height: 100px;
     background-color: white;
+}
+
+#barra {
+    padding-bottom: 6px;
+}
+
+#barra ul, #barra li{
+    display: flex;
+    justify-content: end;
+    padding: 25px;
+}
+
+#barra a{
+    color: black;
+}
+
+@media (max-width: 768px){
+    #barra{
+        background-color: white;
+    }
+
+    #barra ul, #barra li{
+        justify-content: center;
+        padding: 0 12px;
+    }
 }

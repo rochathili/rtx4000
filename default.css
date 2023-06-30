@@ -16,25 +16,43 @@ body{
     background-color: black;
 }
 
-#header{
-    width: 100%;
-    height: 100px;
-    background-color: white;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+#logo{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    flex: 1;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
 #barra {
-    padding: 10px;
-    margin: 10px;
+    flex:1;
+    display: flex;
+    align-items: center;
 }
 
 #barra ul, #barra li{
     display: flex;
-    justify-content: end;
-    padding: 25px;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 15px;
 }
 
 #barra a{
     color: black;
+    font-weight: bolder;
 }
 
 #rodape{
@@ -82,12 +100,24 @@ label{
     color: greenyellow;
 }
 @media (max-width: 768px){
+    #header{
+        flex-direction: column;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
     #barra{
         background-color: white;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
     }
 
     #barra ul, #barra li{
         justify-content: center;
-        padding: 0 12px;
+        margin-left: 0px;
+        padding: 10px;
     }
 }

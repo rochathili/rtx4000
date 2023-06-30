@@ -24,6 +24,7 @@ body{
 
 #barra {
     padding: 10px;
+    margin: 10px;
 }
 
 #barra ul, #barra li{
@@ -59,7 +60,13 @@ body{
 
 #principal{
     display: flex;
+    padding: 20px;
     margin: 20px;
+    color: white;
+}
+
+#principal h2{
+    color: white;
 }
 
 #registro{

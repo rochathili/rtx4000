@@ -1,3 +1,17 @@
-h1{
-    color: red
+*{
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+#header{
+    background-color: white;
 }

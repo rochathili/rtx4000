@@ -24,12 +24,12 @@
     <header id="header">
         <div class="container">
             <div class="row">
-                <div id="logo" class="col-sm-12 col-lg-4">
+                <div id="logo" class="col-sm-6 col-lg-6">
                     <a href="index.html">
-                        <img src="img/logo.png" alt="Logo Nvidia" height="90px">
+                        <img src="img/logo.png" alt="Logo Nvidia" height="80vw">
                     </a>
                 </div>
-                <nav id="barra" class="col-lg-8">
+                <nav id="barra" class="col-sm-6 col-lg-6">
                     <ul>
                         <li><a href="index.html">INÍCIO</a></li>
                         <li><a href="preregistro.html">PRÉ-REGISTRO</a></li>
@@ -39,26 +39,53 @@
         </div>
     </header>
     <!-- Cabeçalho -->
+
+    <!-- Conteúdo -->
     <main id="principal">
-        <div class="containter">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="img/4090.jpg" alt="Placa de vídeo RTX 4090" width="600"/>
+       <div class="row"> 
+        <div class="col-sm-12 col-lg-12">
+            <div class="container">
+                <div class="row align-items-center"> 
+                <div class="col-lg-6 text-center"> 
+                    <img src="img/4090.jpg" alt="Placa de vídeo RTX 4090" class="img-fluid">
                 </div>
-                <div class="col-lg-6" id="texto">
-                    <h2>Por que um portátil?</h2>
-                    <a class="btn btn-lg" href="#">Leia mais</a>
+                <div class="col-lg-6">
+                    <h2>RTX 4090</h2>
+                    <p>
+                    A RTX 4090 é uma placa de vídeo revolucionária que oferece um desempenho incrível para jogos e criação. Ela é baseada na nova arquitetura Ada Lovelace da Nvidia, que introduz novos núcleos de ray tracing e tensor para melhorar a qualidade gráfica e a eficiência energética. Ela tem 16384 núcleos CUDA, 24 GB de memória G6X e um clock de até 2520 MHz, sendo até 4 vezes mais rápida que a RTX 3090. Ela também suporta tecnologias como DLSS 3, Reflex e Studio, que usam inteligência artificial para otimizar o desempenho e a criatividade. A RTX 4090 é a GPU definitiva para quem busca o máximo de qualidade e velocidade.
+                    </p>
+                    <a id="botaoRegistro" class="btn btn-lg" href="preregistro.html">PRÉ-REGISTRO</a>
+                </div>
                 </div>
             </div>
         </div>
-    </main>
+        <div class="col-sm-12 col-lg-12">
+            <div class="container">
+                <div class="row align-items-center"> 
+                <div class="col-lg-6 text-center"> 
+                    <img src="img/IA.jpg" alt="Chip Nvidia utilizado em IA" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Liderança em inteligência artificial</h2>
+                    <p>
+                        A Nvidia é uma empresa líder no mercado de inteligência artificial (IA), oferecendo soluções inovadoras para diversos setores e desafios globais. A Nvidia desenvolve e fornece GPUs, sistemas, softwares e serviços de ponta para treinar, implantar e operar aplicações de IA em escala. A Nvidia também colabora com parceiros como Google, Microsoft, Oracle e Amazon para criar e integrar plataformas de IA que permitem novas capacidades de simulação, colaboração e geração. A Nvidia é pioneira na arquitetura de computação acelerada e na tecnologia de ray tracing e tensor cores, que impulsionam o desempenho e a eficiência energética da IA. A Nvidia também é uma referência em pesquisa e desenvolvimento de IA, criando novos modelos e algoritmos que abrem novas possibilidades para a ciência, a indústria e a sociedade.
+                    </p>
+                    <a id="botaoRegistro" class="btn btn-lg" href="preregistro.html">PRÉ-REGISTRO</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </main>
+
+    <!-- Conteúdo -->
 
     <!-- Rodapé-->
     <footer id="rodape">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <h2>Links</h2>
+                    <h2 id="links">Links</h2>
                     <ul>
                         <li><a href="#">Institucional</a></li>
                         <li><a href="#">Drivers legado</a></li>
@@ -66,7 +93,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <h2>Notícias e novidades</h2>
+                    <h2 id="newsletter">Notícias e novidades</h2>
                     <p>Receba nossa newsletter diretamente no seu feed</p>
                     <div class="input-group">
                         <input type="email" class="form-control" placeholder="Digite seu e-mail..." />
